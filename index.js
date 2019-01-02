@@ -38,7 +38,7 @@ var listening = false;
 
 
 
-client.login(discord_token);
+client.login(process.env.tokon);
 
 client.on('ready', handleReady.bind(this));
 
